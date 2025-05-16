@@ -1,0 +1,30 @@
+{
+  "name": "lixingxing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://li522021642.github.io/resume",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "ant-design-vue": "^3.2.20",
+    "less": "^4.3.0",
+    "pinia": "^3.0.2",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "~5.8.3",
+    "unplugin-vue-define-options": "^3.0.0-beta.12",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}

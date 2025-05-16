@@ -1,0 +1,157 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* 暗黑模式全局样式 */
+html.dark-mode {
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-mode .ant-card {
+  background-color: #1f1f1f;
+  border-color: #333;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-mode .ant-card-head {
+  border-color: #333;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.dark-mode .ant-divider {
+  color: rgba(255, 255, 255, 0.85);
+  border-color: #333;
+}
+
+.dark-mode .ant-list-item {
+  border-color: #333;
+}
+
+.dark-mode .ant-progress-text {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* 炫酷模式全局样式 */
+.cool-style .ant-divider {
+  font-weight: bold;
+  font-size: 1.2em;
+  background: linear-gradient(90deg, #1890ff, #722ed1);
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+.cool-style .ant-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cool-style .ant-card:hover {
+  transform: translateY(-5px);
+}
+
+.cool-style h1, .cool-style h2, .cool-style h3 {
+  background: linear-gradient(90deg, #1890ff, #722ed1);
+  -webkit-background-clip: text;
+  color: transparent !important;
+}
+
+.cool-style .ant-tag {
+  border-radius: 20px;
+}
+
+/* 修复炫酷风格下透明文字的问题 */
+.cool-style p, 
+.cool-style .ant-card-body,
+.cool-style .work-description,
+.cool-style .education-period,
+.cool-style .ant-tag,
+.cool-style .ant-progress-text {
+  color: inherit !important;
+}
+
+.dark-mode.cool-style p,
+.dark-mode.cool-style .ant-card-body,
+.dark-mode.cool-style .work-description,
+.dark-mode.cool-style .education-period {
+  color: rgba(255, 255, 255, 0.85) !important;
+}

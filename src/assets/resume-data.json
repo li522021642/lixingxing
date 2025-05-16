@@ -1,0 +1,219 @@
+{
+  "themeMode": "light",
+  "themeStyle": "cool",
+  "personalInfo": {
+    "name": "李星星",
+    "phone": "18983425803",
+    "email": "522021642@qq.com",
+    "location": "重庆",
+    "birthday": "1993-02-28",
+    "workStart": "2016-09-01",
+    "gender": "男",
+    "nationality": "汉族",
+    "maritalStatus": "已婚",
+    "politicalStatus": "党员",
+    "jobStatus": "在职",
+    "position": ["全栈开发工程师", "AI应用开发工程师"],
+    "summary": "丰富的Ai应用开发经验，有10人前端团队带队经验，从事面向C端（服务400+万自营会员）以及B端客户（300+万的终端门店以及2000+经销商）的业务架构设计以及研发。对Vue全家桶，React，微信原生小程序，JavaScript，TypeScript，NodeJS，Python，mongodb等前端技术有深入的研究。",
+    "avatar": "https://avatars.githubusercontent.com/u/profile.jpg",
+    "social": [
+      {
+        "name": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/li522021642"
+      },
+      {
+        "name": "CSDN",
+        "icon": "csdn",
+        "url": "https://blog.csdn.net/li522021642?spm=1011.2124.3001.10640"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "title": "Vue2/Vue3",
+      "description": "阅读过Vue源码，深入理解双向数据绑定，diff算法，组件通讯，vuex数据管理，router路由以及axios数据请求，对MVVM架构有深入理解，能熟练的运用以上技术进行项目独立开发。",
+      "level": 90
+    },
+    {
+      "title": "React",
+      "description": "熟练使用React全家桶，对umijs以及对React的组件化，虚拟DOM，状态管理，路由，数据请求等有深入的理解，能熟练的运用以上技术进行项目独立开发。",
+      "level": 80
+    },
+    {
+      "title": "微信小程序",
+      "description": "熟练使用原生微信小程序90%的API，小程序云开发(基于Node），mongodb并能独立完成项目的前后端设计与开发。",
+      "level": 85
+    },
+    {
+      "title": "Webpack",
+      "description": "深入理解webpack的工作原理，并了解其运行原理和机制，熟练使用loader和plugin，对entry，output，module(loader)，plugins，devtool五大模块有深入的理解，对webpack打包的优化有深入的研究。",
+      "level": 80
+    },
+    {
+      "title": "HTML5/CSS3",
+      "description": "熟练使用Html5和css3，熟悉各种新标签及属性，并能构建全局的css架构，100%还原设计页面与交互动画。能熟练使用三方框架Antd，element-ui，vant，iview等等。",
+      "level": 85
+    },
+    {
+      "title": "JavaScript",
+      "description": "熟练使用JavaScript，并熟知其作用域，闭包，内存管理，Event-loop，Dom事件体系，掌握异步编程解决方案，对ES6也有深入理解和实际项目经验。",
+      "level": 90
+    },
+    {
+      "title": "NodeJS",
+      "description": "熟练使用NodeJS，并熟知其作用域，对Egg框架熟练使用，掌握异步编程解决方案，对ES6也有深入理解和实际项目经验。",
+      "level": 80
+    },
+    {
+      "title": "Python",
+      "description": "常规使用Python进行模型交互和数据处理，对Conda及uv工具熟练使用，可独立开发项目",
+      "level": 80
+    },
+    {
+      "title": "浏览器原理",
+      "description": "了解浏览器结构和渲染过程，对缓存和存储有深入了解，熟知css中的盒子模型和BFC布局，熟练使用css达到响应式的布局方案。",
+      "level": 75
+    },
+    {
+      "title": "其他技术",
+      "description": "对AotuJS等也有实际项目经验。",
+      "level": 70
+    }
+  ],
+  "education": [
+    {
+      "school": "重庆科技学院",
+      "degree": "本科",
+      "major": "计算科学与技术",
+      "startDate": "2021",
+      "endDate": "2024"
+    },
+    {
+      "school": "重庆机电职业技术学院",
+      "degree": "大专",
+      "major": "建筑工程技术",
+      "startDate": "2012",
+      "endDate": "2015"
+    }
+  ],
+  "workExperience": [
+    {
+      "company": "博腾制药科技",
+      "position": "IT开发工程师",
+      "startDate": "2022年7月",
+      "endDate": "至今",
+      "description": "从事全栈开发及AI应用开发和大模型微调"
+    },
+    {
+      "company": "三峡银行",
+      "position": "高级前端工程师",
+      "startDate": "2021年3月",
+      "endDate": "2022年3月",
+      "description": "从事前端基础架构设计，C端贷款小程序与手机银行App开发"
+    },
+    {
+      "company": "江小白",
+      "position": "前端开发组长",
+      "startDate": "2018年4月",
+      "endDate": "2021年3月",
+      "description": "从事B端（经销体系）以及C端小程序（会员体系及营销体系）产品的架构设计与研发"
+    },
+    {
+      "company": "足下软件培训学院",
+      "position": "S3讲师/前端开发",
+      "startDate": "2016年3月",
+      "endDate": "2018年4月",
+      "description": "主要从事前端知识体系的授课与教材的编写，开发erp系统"
+    }
+  ],
+  "projects": [
+    {
+      "name": "手机银行App（三峡银行）",
+      "period": "2021年6月-至今",
+      "role": "项目参与者",
+      "responsibility": "参与贷款，理财，存款相关的需求更新迭代",
+      "background": [
+        "作为一种结合了货币电子化与移动通信的崭新服务，移动银行业务不仅可以使人们在任何时间、任何地点处理多种金融业务，而且极大地丰富了银行服务的内涵，使银行能以便利、高效而又较为安全的方式为客户提供传统和创新的服务",
+        "主要提供了生活缴费，贷款，存款，理财，商城，黄金，转账等功能"
+      ],
+      "description": "通过H5内嵌到原生App的方式来扩展手机银行的功能横和业务",
+      "architecture": "Vue2 + router + vuex + axios + vant",
+      "challenges": [
+        "第一次启动太慢，加载时间过长，给用户的体验不好",
+        "测试版本太多，Git分支管理混乱"
+      ],
+      "solutions": [
+        "首屏优化，采用import异步导入组件结合webpackChunkName实现对不同模块进行代码分割，配合webpackPrefetch实现预加载",
+        "合理划分Git版本，与分支管理，采用自己分支开发，指定分支合并测试，并合理划分release和tag"
+      ]
+    },
+    {
+      "name": "帆帆贷小程序（三峡银行）",
+      "period": "2021年4月-至今",
+      "role": "项目负责人",
+      "responsibility": "主要负责小程序的开发",
+      "background": [
+        "当前互联网已成为金融机构触达客户、发放贷款、服务客户的重要渠道和手段，消费金融需求也日益旺盛、规模日渐扩大，各家银行等金融机构对互联网线上信贷业务愈发重视，投入不断增长，竞争日益激烈。",
+        "三峡银行目前还暂未针对该领域形成与市场需求相匹配的产品及业务体系。为了适应市场需要，提升三峡银行产品竞争力，通过数字化手段助推信贷业务优化升级，特此打造个人无接触式授信金融服务体系，构建我行自主可控的数字化信贷能力和产品体系，并首先通过三峡帆帆贷产品I、II、III期的开发及迭代，抓住市场机遇、培育基础客群，为三峡银行后续积极开展数字化信贷业务打好基础。"
+      ],
+      "description": "一款线上贷款，还款的小程序，类似于支付宝的蚂蚁借呗，通过银行的授信系统判断用户的贷款额度",
+      "architecture": "微信原生语法 + Vant",
+      "challenges": [
+        "采集用户的行为数据，多个小程序可以共用"
+      ],
+      "solutions": [
+        "采用异步的采集方案，封装独立的js插件，利用flag标识处理人脸识别，文件上传等特殊情况"
+      ]
+    },
+    {
+      "name": "我的酒馆Pub和瓶子星球小程序(江小白)",
+      "period": "2019年7月-2021年3月",
+      "role": "项目负责人",
+      "responsibility": "主要负责任务划分及小程序和PC管理系统的开发",
+      "background": [
+        "瓶子星球：打造一个白酒的线上社区，丰富社区玩法，结识对白酒文化有共识的同道中人，为数字化营销和大数据分析做好铺垫",
+        "我的酒馆Pub：为打造一款线上开店，员工卖酒，形象大使线上赠酒的工具，并成为线上营销的重要工具"
+      ],
+      "description": [
+        "瓶子星球：通过各种社区玩法，每月9号会员日，抽奖，社区找茬等提升用户的活跃度，实现数字变现",
+        "我的酒馆Pub：类似商城的小程序，并提供了内部员工的特殊权限，特别为形象大使提成了免费赠酒的营销体系和上下链的追踪"
+      ],
+      "architecture": "前端：微信原生语法 + Vant\nPC：Vue + router + vuex + axios + iviewAdmin",
+      "challenges": [
+        "用户授权独立刷新",
+        "订单系统太复杂，按钮状态多达30几种",
+        "无限列表卡顿，直播弹幕不能实时刷新",
+        "收集用户的行为数据和营销数据"
+      ],
+      "solutions": [
+        "采用全局的独立授权窗口化来实现用户的授权",
+        "通过JSON配置的方式实现了按钮的可配置化的管理模式",
+        "采用长列表加载方式解决了无限下载带来的性能卡顿",
+        "加入诸葛IO系统，采集对应的数据并可视化编辑，为营销体系提供可靠的数据支撑"
+      ]
+    },
+    {
+      "name": "外勤系统，OA系统，CRM系统（江小白）",
+      "period": "2018年4月-2021年3月",
+      "role": "项目负责人",
+      "responsibility": "主要负责任务划分及App内嵌H5和PC端管理系统的开发",
+      "background": [
+        "原来的系统分别用不同的语言开发，部分系统架构陈旧且耦合严重无法跟上业务的快速迭代，导致业主方多有抱怨，公司的快速发展加上数据的快速膨胀使得原有架构已经无法适应时代的步伐",
+        "数据报表模块远远不能够满足集团内部对数据的诉求，运营与市场人员需要对数据进行专业分析，内部系统数据与外部系统存在数据壁垒，数据存在孤岛无法发挥最大价值"
+      ],
+      "description": "移动端和PC端全部用Vue实现重构，实现路由鉴权，报表功能升级，财务模块的自动化等",
+      "architecture": "Vue + vuex + router + axios + Vant/iviewAdmin",
+      "challenges": [
+        "员工管理的表单变动无常，导致开发一直是被动",
+        "首屏加载时间过长",
+        "交互不够完善"
+      ],
+      "solutions": [
+        "员工管理采用JSON配置的方式来实现表单的自动化，方便后期的迭代升级",
+        "通过webpack优化打包，减小入口文件的大小，预加载实现加载速度的提升",
+        "全局交互动画的重新设计，提升产品交互性"
+      ]
+    }
+  ]
+} 
